@@ -1,0 +1,134 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d5c8c8;
+}
+.navbar {
+  background: #4a4a4a;
+  color: white;
+  padding: 15px;
+  /* text-align: center; */
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* kolona13,14,15,16,17 moj rad*/
+}
+.logo {
+  position: absolute;
+  left: 18px;
+  top: 20px;
+
+  width: 60px;
+  height: auto;
+  /* logo je moj :) */
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff4d00;
+  text-decoration: underline;
+  /* moj kod */
+}
+
+.hero {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  /* background: rgba(0, 0, 0, 0.5); */
+  /* padding: 20px; */
+  /* border-radius: 10px; */
+  margin-bottom: 10px; /* moj rad */
+}
+.hero-content {
+  width: 99%;
+  background: rgb(40, 47, 72);
+  padding: 20px;
+  border-radius: 10px;
+  /* moj rad*/
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff4d00;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #e63900;
+}
+.products {
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* justify-content: center; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  padding: 50px 20px;
+  background: #f4f4f4;
+  margin-bottom: 20px;
+  /* kolona 79,80,81,82,83,84 moj rad*/
+}
+.product {
+  background: white;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.sneaker {
+  width: 150px;
+  height: auto;
+  /*moj kod*/
+}
+
+.reviews {
+  text-align: center;
+  padding: 50px;
+  background: #ddd;
+}
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+}
+.review {
+  width: 300px;
+  margin: 0 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.rew-img {
+  width: 100px;
+  height: auto;
+  border-radius: 100%;
+  /* moj kod*/
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
